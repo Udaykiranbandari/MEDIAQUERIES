@@ -1,0 +1,39 @@
+.main{
+    background-color: brown;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.one{
+    
+    background-color: orange;
+    font-size: 1rem;
+    border: 2px solid black;
+
+}
+.two{
+     background-color: yellow;
+    border: 2px solid black;
+}
+.three{
+    background-color: green;
+    border: 2px solid black;
+}
+.all{
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+}
+.two,.three,.one{
+    font-size: 2rem;
+    width: 100px;
+    padding: 3px;
+}
+@media screen and ( max-width : 500px ) {
+    .two,.three{
+        display: none;
+    }
+}
